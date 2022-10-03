@@ -1,0 +1,132 @@
+/***************************TAG SELECTORS***************************/
+body {
+  background-image: url("C:/Users/brain/Desktop/WEBDEVELOPMENT/GITHUB/front end dev challenges/intro-component-with-signup-form-master/upload to github/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+input{
+  width: 500px;
+  height: 50px;
+  margin: 5px;
+  border-style: solid;
+  border-color: hsl(246deg 25% 77% / 44%);
+  border-radius: 5px;
+}
+/***************************CLASS SELECTORS*************************/
+.container {
+  display: grid;
+  /* grid-auto-columns: 50%; */
+  grid-template-columns: auto auto;
+  grid-column-gap: 70px;
+  text-align: center;
+  justify-content: center;
+  /* align-items: center; */
+}
+/* this is the left hand div in the grid */
+.left-Hand {
+  display: inline-block;
+  margin-top: 50%;
+  width: 500px;
+  text-align: left;
+}
+/* this is the title of the page */
+.pageTitle {
+ font-weight: 700;
+ font-size: 37px;
+ line-height: 50px;
+}
+/* this is the right hand div on the grid */
+.right-Hand {
+  display: block;
+  margin-top: 20%;
+}
+/* this is the div that contains the navbar */
+.navbar {
+  background-color: hsl(248, 32%, 49%);
+  margin-bottom: 20px;
+  height: 67px;
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 0px 0px rgb(0 0 0 / 15%);
+}
+
+/* this is the text in the navbar */
+.txt-nav {
+  color: #fff;
+  font-size: 16px;
+  padding-left: 120px;
+  padding-top: 7px;
+}
+/* this is the div that contains the form */
+.formInputInfo {
+  background-color: white;
+  width: 600px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 30px 10px;
+  position: inherit;
+  box-shadow: 0px 8px 0px 0px rgb(0 0 0 / 15%);
+}
+
+.btn {
+  background-color: hsl(154, 59%, 51%);
+  margin: 10px 10px 10px 15px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  height: 60px;
+}
+
+.btn:hover {
+  background-color: #1f441e !important;
+}
+
+.termsAndConditions{
+  color: hsl(246, 25%, 77%);
+  width: 500px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.ts {
+  color: red;
+}
+
+/***************************ID SELECTORS****************************/
+#errorMessage_Fn {
+  color: red;
+  /* display: none; */
+  margin-left: 270px;
+  font-size: 12px;
+}
+
+#errorMessage_Ln {
+  color: red;
+  /* display: none; */
+  margin-left: 270px;
+  font-size: 12px;
+}
+
+#error_EmailAddress {
+  color: red;
+  /* display: none; */
+  margin-left: 270px;
+  font-size: 12px;
+}
+
+#errorMessage_Pw {
+  color: red;
+  /* display: none; */
+  margin-left: 270px;
+  font-size: 12px;
+}
+/***************************IMAGES*********************************/
+
+
+/***************************RESPONSIVENESS*************************/
