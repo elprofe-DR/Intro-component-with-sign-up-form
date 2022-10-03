@@ -98,6 +98,14 @@ input{
   color: red;
 }
 
+#eye {
+  color: hsl(246, 25%, 77%);
+  margin-left: 180px;
+  margin-top: -45px;
+  font-size: 30px;
+  position: absolute;
+}
+
 /***************************ID SELECTORS****************************/
 #errorMessage_Fn {
   color: red;
