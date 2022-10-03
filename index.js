@@ -31,3 +31,15 @@ function checkIfEmpty(e) {
 };
 
 button.addEventListener('click', checkIfEmpty);
+
+//toggle eye button
+let passwordEyeToggle = document.getElementById('eye');
+let passwordInputField = document.getElementsByClassName('fuck')[3];
+//
+function toggleButton (e) {
+ let type = passwordInputField.getAttribute('type') === 'password' ? 'text' : 'password';
+ passwordInputField.setAttribute('type', type);
+ this.classList.toggle("fa-eye");
+};
+
+passwordEyeToggle.addEventListener('click', toggleButton);
